@@ -20,7 +20,7 @@ This project is developed using the following technologies:
 
 - Various models and animations will be added.
 
-#EN
+#TR
 
 Bu proje, React ve Three.js kullanarak bir 3D karakter seçici uygulaması oluşturur. Kullanıcılar, uygulama aracılığıyla farklı karakterler arasında gezinebilir ve seçtikleri karakteri ve animasyonlarını görüntüleyebilirler.
 
