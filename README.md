@@ -1,8 +1,11 @@
-# React + Vite
+# 3D-Animated-Models
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, React ve Three.js kullanarak bir 3D karakter seçici uygulaması oluşturur. Kullanıcılar, uygulama aracılığıyla farklı karakterler arasında gezinebilir ve seçtikleri karakteri ve animasyonlarını görüntüleyebilirler.
 
-Currently, two official plugins are available:
+## Kullanılan Teknolojiler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Bu proje aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
+- React
+- Three.js
+- Mantine UI
+
