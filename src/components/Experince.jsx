@@ -1,8 +1,12 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/no-unknown-property */
 import { OrbitControls } from "@react-three/drei";
-import Woman from "./woman";
+import { Character } from "../hooks/useCharacterState";
 
-const Experience = () => {
+const Experience = ({ characterIndex }) => {
+  const characterComponents = Character;
+
+  const CharacterComponent = characterComponents[characterIndex].component;
   return (
     <>
       <OrbitControls />
@@ -14,7 +18,7 @@ const Experience = () => {
         shadow-mapSize-height={1024}
       />
       <group position={[0, -1, 0]}>
-        <Woman />
+        <CharacterComponent />
       </group>
       <mesh
         rotation={[-0.5 * Math.PI, 0, 0]}
